@@ -31,6 +31,12 @@
     .container {
       display: grid;
       grid-gap: 20px;
+      /* grid-template-columns: 200px 2fr 1fr;
+      /* fr doesn't work for height unless it has explicit height */
+      /* grid-template-rows: 1fr 1fr 1fr 1fr;
+      height: 500px; */
+      /* auto defaults to max width of content */
+      grid-template-columns: auto 1fr;
     }
   </style>
 </body>
